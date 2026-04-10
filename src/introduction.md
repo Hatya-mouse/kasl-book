@@ -17,12 +17,12 @@ import math/float
 struct Thing {
     // Struct fields.
     var a = 0
-    
+
     // Static functions, which can be called like "Thing.zero()".
     static func zero() -> Int {
         return 0
     }
-    
+
     // Member functions, in which "self" keyword can be used.
     func decrement(amount: Int) {
         self.a = self.a - amount
@@ -80,6 +80,40 @@ state thing_state = Thing()
 // Constants.
 let pi = 3.1415926535
 
-// The main function, which will be called when processing the program.
-func main() {}
+// The main function.
+func main() {
+    // Static function call.
+    let zero_thing = Thing.zero()
+    zero_thing.decrement(-5)
+    
+    // Function calls.
+    int_state = add(lhs: zero_thing.a, rhs: 5)
+
+    // If and If-else statements.
+    if bool_in {
+        int_state = add(int_state, 1)
+    }
+
+    if float_in > 0.0 {
+        float_out = float_in
+    } else {
+        float_out = 0.0
+    }
+
+    // Constant loop statement.
+    var i = 0
+    loop 4 {
+        int_state = add(int_state, i)
+        i = i + 1
+    }
+}
+
+// Function with two arguments and a return.
+func add(lhs a: Int, rhs b: Int) -> Int {
+    return a + b
+}
 ```
+
+## Links
+
+The documentation of the syntax of KASL can be found [here](core/core.md).
