@@ -3,6 +3,8 @@
 - [Introduction](./introduction.md)
 
 - [Syntax](./syntax/index.md)
+    - [Scopes](./syntax/scopes.md)
+    - [Variables](./syntax/variables.md)
 
 - [Statements](./stmts/index.md)
     - [Declaration Statements](./stmts/decls/index.md)
