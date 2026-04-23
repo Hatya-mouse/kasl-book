@@ -1,8 +1,10 @@
-# Declarations
+# Declaration Statements
 
-## Top-Level Statements
+Declaration statements are the statements that can be used in the global scopes.
 
-These are the statements can be used in the top level to declare symbols such as variables, structs and functions.
+## Global Statements
+
+These are the statements can be used in the global scope to declare symbols such as variables, structs and functions.
 
 | Keyword | Description | Link |
 | --- | --- | --- |

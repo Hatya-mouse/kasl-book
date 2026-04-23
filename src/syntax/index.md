@@ -1,6 +1,4 @@
 # Syntax
 
-This syntax documentation describes the basic syntax of KASL.
-
-- [Declarations](./decls/index.md) --- Top level declaration statements.
-- [Statements](./stmts/index.md) --- Statements which can be used inside functions.
+KASL's syntax is heavily inspired by [Swift](https://en.wikipedia.org/wiki/Swift_(programming_language)). However, there are some original features like `input`, `output` and `state` variables.
+Throughout this documentation, you'll learn the basic syntax of KASL.

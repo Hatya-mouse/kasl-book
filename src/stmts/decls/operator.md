@@ -22,11 +22,11 @@ operator infix <Symbol> {
 }
 
 operator prefix <Symbol> {
-    precedence: <Precedence>,
+    precedence: <Precedence>
 }
 
 operator postfix <Symbol> {
-    precedence: <Precedence>,
+    precedence: <Precedence>
 }
 ```
 

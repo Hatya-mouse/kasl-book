@@ -1,6 +1,6 @@
 # Function
 
-`func` statement declares a function in the top level or struct declarations.
+`func` statement declares a function in the global scope or struct declarations.
 
 ## Specifications
 
