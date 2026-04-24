@@ -67,7 +67,6 @@ When another KASL program is imported, only the variables and functions declared
 For example, we have `module.kasl` and `main.kasl` as follows:
 
 `module.kasl`
-
 ```kasl
 // This variable is in the global scope and can be accessed from main.kasl
 let pi = 3.14
@@ -79,7 +78,6 @@ func calculate_area(radius: Float) -> Float {
 ```
 
 `main.kasl`
-
 ```kasl
 import module
 
